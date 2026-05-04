@@ -507,6 +507,7 @@ button, input, select, textarea { font-family: inherit; }
   display: flex; flex-direction: column;
   align-items: center; justify-content: center;
   gap: .5rem;
+  overflow: hidden;
   font-size: 1.8rem;
   color: var(--c-border);
   cursor: pointer;
@@ -897,7 +898,7 @@ footer {
           <div class="swatch-lbl">Пудровый</div>
         </div>
         <div class="swatch-item">
-          <div class="swatch" style="background:#c8b090"></div>
+          <div class="swatch" style="background:#d4bc9a"></div>
           <div class="swatch-lbl">Бежевый</div>
         </div>
       </div>
@@ -915,30 +916,12 @@ footer {
     <div class="section-kicker">Фотографии</div>
     <div class="section-title" style="color:var(--c-text-mid)">Наши моменты</div>
     <div class="gallery-grid">
-      <div class="gallery-cell" title="Фото 1">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
-        <span>Фото</span>
-      </div>
-      <div class="gallery-cell" title="Фото 2">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
-        <span>Фото</span>
-      </div>
-      <div class="gallery-cell" title="Фото 3">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
-        <span>Фото</span>
-      </div>
-      <div class="gallery-cell" title="Фото 4">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
-        <span>Фото</span>
-      </div>
-      <div class="gallery-cell" title="Фото 5">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
-        <span>Фото</span>
-      </div>
-      <div class="gallery-cell" title="Фото 6">
-        <svg width="32" height="32" viewBox="0 0 24 24" fill="none"><path d="M23 19a2 2 0 01-2 2H3a2 2 0 01-2-2V8a2 2 0 012-2h4l2-3h6l2 3h4a2 2 0 012 2z" stroke="currentColor" stroke-width="1.5" stroke-linejoin="round"/><circle cx="12" cy="13" r="4" stroke="currentColor" stroke-width="1.5"/></svg>
-        <span>Фото</span>
-      </div>
+      <div class="gallery-cell"><img src="photo1.jpg" alt="Фото 1" style="width:100%;height:100%;object-fit:cover"></div>
+      <div class="gallery-cell"><img src="photo2.jpg" alt="Фото 2" style="width:100%;height:100%;object-fit:cover"></div>
+      <div class="gallery-cell"><img src="photo3.jpg" alt="Фото 3" style="width:100%;height:100%;object-fit:cover"></div>
+      <div class="gallery-cell"><img src="photo4.jpg" alt="Фото 4" style="width:100%;height:100%;object-fit:cover"></div>
+      <div class="gallery-cell"><img src="photo5.jpg" alt="Фото 5" style="width:100%;height:100%;object-fit:cover"></div>
+      <div class="gallery-cell"><img src="photo6.jpg" alt="Фото 6" style="width:100%;height:100%;object-fit:cover"></div>
     </div>
   </div>
 </section>
